@@ -39,11 +39,21 @@ h3 {
 }
 
 .navbar ul li a,
-.navbar-brand {
+.navbar-brand a {
 	font-size: 1.3em;
 	text-transform: uppercase;
 	color: #F2F2F2 !important;
 	font-weight: bold;
+}
+
+.navbar-brand sup {
+	font-size: 0.5em;
+	padding: 0 10px;
+	line-height: 2;
+}
+
+.navbar-brand sup a {
+	padding: 0 5px;
 }
 
 .navbar ul li a:hover {
