@@ -16,26 +16,36 @@ h6 {
 	font-family: 'Josefin Sans', Helvetica, sans-serif;
 }
 
-body {
-	background: violet;
-}
-
-.container {
-	background: pink;
+section {
+	padding: 30px 0;
 }
 
 section div {
 	padding: 30px 0;
+}
+
+h2,
+h3 {
 	text-align: center;
 }
 
-h2 {
-	background: white;
-	text-align: center;
+.navbar {
+	background: #005A31;
+	border: none;
+}
+
+.navbar ul li a {
+	font-size: 1.3em;
+	text-transform: uppercase;
+	color: #F2F2F2 !important;
+	font-weight: bold;
 }
 
 .jumbotron {
 	text-align: center;
+	margin-bottom: 0;
+	padding: 100px 0 70px 0;
+	background: rgb(80, 219, 214);
 }
 
 .jumbotron img {
@@ -44,12 +54,36 @@ h2 {
 	padding-bottom: 30px;
 }
 
+.jumbotron button {
+	margin-top: 30px;
+	width: 300px;
+	height: 60px;
+	color: #f2f2f2;
+	font-size: 1.7em;
+	background: rgb(224, 169, 26);
+	border: none;
+	font-weight: bold;
+}
+
 #about {
-	background: #567;
+	background: #F3FAB6;
+}
+
+#about p {
+	text-align: center;
+	font-size: 2.5em;
 }
 
 #about img {
 	width: 300px;
 	height: auto;
 	padding-top: 30px;
+}
+
+#location {
+	background: #CBE32D;
+}
+
+#activities {
+	background: #A8CD1B;
 }
