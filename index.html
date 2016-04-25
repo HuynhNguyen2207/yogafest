@@ -1,46 +1,131 @@
 <!DOCTYPE html>
 <html lang='en'>
-	<head>
-		<meta charset='UTF-8'>
-		<title>Yogafest 2016</title>
-		
-		<!-- HTML5 Shiv -->
-		<!--[if IE]>
+
+<head>
+	<meta charset='UTF-8'>
+	<title>Yogafest 2017</title>
+
+	<!-- HTML5 Shiv -->
+	<!--[if IE]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		
-		<!-- CSS files -->
-		<link rel='stylesheet' href='css/bootstrap.min.css'>
-		<link rel='stylesheet' href='css/main.css'>
-		<link rel='stylesheet' href='css/animation.css'>
-		
-	</head>
-	
-	<body>
-		<div class='container'>
-			<header>
-				<nav>
-					<ul>
-						<li><a href='about.html'>About us</a></li>
-						<li><a href='schedule.html'>Schedule</a></li>
-						<li><a href='activities.html'>Activies</a></li>
-					</ul>
-				</nav>
-			</header>
-			<main>
-				<section class='about'></section>
-				<section class='location'></section>
-				<section class='activities'></section>
-				<section class='sponsor'></section>
-			</main>
-			<footer>
-			</footer>
+
+	<!-- CSS files -->
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,300,100' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' href='css/bootstrap.min.css'>
+	<link rel='stylesheet' href='css/main.css'>
+	<link rel='stylesheet' href='css/animation.css'>
+
+</head>
+
+<body>
+
+	<header>
+		<div class='navbar navbar-default'>
+			<nav class='container'>
+				<div class='navbar-header'>
+					<a href='#' class='navbar-brand'>
+						<img width=20 height=auto src='img/yoga-logo-13(2).png' alt='logo'>
+					</a>
+
+					<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+						<span class='sr-only'>Nav Button</span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+					</button>
+				</div>
+
+				<ul class='nav navbar-nav navbar-right collapse navbar-collapse'>
+					<li>
+						<a href='#about'>What is Yogafest?</a>
+					</li>
+					<li>
+						<a href='#location'>When and where is it?</a>
+					</li>
+					<li>
+						<a href='#activities'>What to do there?</a>
+					</li>
+					<li>
+						<a href='#'>Book your ticket now</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
-		
-		<!-- JQuerry JS -->
-		<script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
-		
-		<!-- Bootstrap JS  -->
-		<script src='js/bootstrap.min.js'></script>
-	</body>
+		<div class='jumbotron'>
+			<img src='img/yoga-logo-13(2).png'>
+			<h1>YOGAFEST <br>2017</h1>
+			<h3>Enjoy outdoor yoga, good music while raising environmental awareness</h3>
+			<button type='button' class='btn btn-primary btn-lg'>Get your ticket now!</button>
+		</div>
+	</header>
+	<div class='container'>
+		<main>
+			<section id='about' class='row'>
+				<h2>What is yogafest?</h2>
+				<div class='col-md-6 col-md-offset-3'>
+					<p>
+						Aenean ultricies viverra dapibus. Vivamus sagittis lobortis mi, nec vestibulum elit gravida nec. Nullam tincidunt turpis dolor, a mattis erat sodales in. Aenean et bibendum velit, nec malesuada nisi. Phasellus feugiat vitae urna quis aliquam. Curabitur congue nisi urna, sit amet aliquet velit convallis sit amet. Aenean vitae magna id nisi efficitur tristique. Nulla a gravida nisi. Nulla quis ligula arcu. Nullam eu convallis nisi, eu elementum massa. In faucibus nulla non tristique tristique.
+					</p>
+				</div>
+			</section>
+			<section id='location' class='row'>
+				<h2>Where and when is it?</h2>
+				<div class='col-md-6'>
+					<h3>Time</h3>
+					<p>
+						Aenean ultricies viverra dapibus. Vivamus sagittis lobortis mi, nec vestibulum elit gravida nec. Nullam tincidunt turpis dolor, a mattis erat sodales in. Aenean et bibendum velit, nec malesuada nisi. Phasellus feugiat vitae urna quis aliquam. Curabitur congue nisi urna, sit amet aliquet velit convallis sit amet. Aenean vitae magna id nisi efficitur tristique. Nulla a gravida nisi. Nulla quis ligula arcu. Nullam eu convallis nisi, eu elementum massa. In faucibus nulla non tristique tristique.
+					</p>
+				</div>
+				<div class='col-mid-6'>
+					<h3>Venue</h3>
+					<p>
+						Aenean ultricies viverra dapibus. Vivamus sagittis lobortis mi, nec vestibulum elit gravida nec. Nullam tincidunt turpis dolor, a mattis erat sodales in. Aenean et bibendum velit, nec malesuada nisi. Phasellus feugiat vitae urna quis aliquam. Curabitur congue nisi urna, sit amet aliquet velit convallis sit amet. Aenean vitae magna id nisi efficitur tristique. Nulla a gravida nisi. Nulla quis ligula arcu. Nullam eu convallis nisi, eu elementum massa. In faucibus nulla non tristique tristique.
+					</p>
+				</div>
+			</section>
+			<section id='activities' class='row'>
+				<h2>What to do there?</h2>
+				<div class='col-md-4'>
+					<img class='acti-pic' src='img/icon/yoga-icon_yoga.png' />
+					<h3>Practice Outdoor Yoga</h3>
+					<p>
+						Aenean ultricies viverra dapibus. Vivamus sagittis lobortis mi, nec vestibulum elit gravida nec. Nullam tincidunt turpis dolor, a mattis erat sodales in. Aenean et bibendum velit, nec malesuada nisi. Phasellus feugiat vitae urna quis aliquam. Curabitur congue nisi urna, sit amet aliquet velit convallis sit amet. Aenean vitae magna id nisi efficitur tristique. Nulla a gravida nisi. Nulla quis ligula arcu. Nullam eu convallis nisi, eu elementum massa. In faucibus nulla non tristique tristique.
+					</p>
+				</div>
+				<div class='col-md-4'>
+					<img class='acti-pic' src='img/icon/yoga-icon_music.png' />
+					<h3>Listen to Great Music</h3>
+					<p>
+						Aenean ultricies viverra dapibus. Vivamus sagittis lobortis mi, nec vestibulum elit gravida nec. Nullam tincidunt turpis dolor, a mattis erat sodales in. Aenean et bibendum velit, nec malesuada nisi. Phasellus feugiat vitae urna quis aliquam. Curabitur congue nisi urna, sit amet aliquet velit convallis sit amet. Aenean vitae magna id nisi efficitur tristique. Nulla a gravida nisi. Nulla quis ligula arcu. Nullam eu convallis nisi, eu elementum massa. In faucibus nulla non tristique tristique.
+					</p>
+				</div>
+				<div class='col-md-4'>
+					<img class='acti-pic' src='img/icon/yoga-icon_green.png'>
+					<h3>Doing good for the environment</h3>
+					<p>
+						Aenean ultricies viverra dapibus. Vivamus sagittis lobortis mi, nec vestibulum elit gravida nec. Nullam tincidunt turpis dolor, a mattis erat sodales in. Aenean et bibendum velit, nec malesuada nisi. Phasellus feugiat vitae urna quis aliquam. Curabitur congue nisi urna, sit amet aliquet velit convallis sit amet. Aenean vitae magna id nisi efficitur tristique. Nulla a gravida nisi. Nulla quis ligula arcu. Nullam eu convallis nisi, eu elementum massa. In faucibus nulla non tristique tristique.
+					</p>
+				</div>
+			</section>
+			<section id='sponsor' class='row'>
+				<h2>Our sponsors</h2>
+				<div class='sponsor col-md-3'><img src='img/c782ea_30c4d0ecbee54d779791c413eea30c71.jpg' /></div>
+				<div class='sponsor col-md-3'><img src='img/c782ea_95074facfcc54bc3a05c6790cd800ba4.jpg' /></div>
+				<div class='sponsor col-md-3'><img src='img/c782ea_d7b152fbe10d4f1192cbe8d03f935a95.png' /></div>
+				<div class='sponsor col-md-3'><img src='img/c782ea_ee522ea7448d4351a25d2dedc2284639.jpg' /></div>
+			</section>
+		</main>
+		<footer>
+			<p>Contact us at <a href='mailto:ethan.do@gmail.com'>ethan.do@gmail.com</a></p>
+		</footer>
+	</div>
+
+	<!-- JQuerry JS -->
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap JS  -->
+	<script src='js/bootstrap.min.js'></script>
+</body>
+
 </html>

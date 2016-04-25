@@ -1,3 +1,55 @@
+body,
+div,
+p,
+a,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', Helvetica, sans-serif;
+}
+
+body {
+	background: violet;
+}
+
+.container {
+	background: pink;
+}
+
+section div {
+	padding: 30px 0;
+	text-align: center;
+}
+
+h2 {
+	background: white;
+	text-align: center;
+}
+
 .jumbotron {
-	border-radius: 0;
+	text-align: center;
+}
+
+.jumbotron img {
+	width: 15%;
+	height: auto;
+	padding-bottom: 30px;
+}
+
+#about {
+	background: #567;
+}
+
+#about img {
+	width: 300px;
+	height: auto;
+	padding-top: 30px;
 }
