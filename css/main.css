@@ -10,7 +10,11 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+footer,
+header,
+main,
+content {
 	margin: 0;
 	padding: 0;
 	font-family: 'Josefin Sans', Helvetica, sans-serif;
@@ -54,6 +58,12 @@ h3 {
 	padding-bottom: 30px;
 }
 
+.jumbotron h1,
+.jumbotron h3 {
+	color: #f2f2f2;
+	font-weight: bold;
+}
+
 .jumbotron button {
 	margin-top: 30px;
 	width: 300px;
@@ -86,4 +96,28 @@ h3 {
 
 #activities {
 	background: #A8CD1B;
+}
+
+#activities header {
+	text-align: center;
+}
+
+#activities header img {
+	padding-bottom: 20px;
+}
+
+#activities header h3 {
+	padding-bottom: 20px;
+}
+
+footer {
+	background: #005A31;
+	padding: 0 30px;
+}
+
+footer p {
+	padding: 30px 0;
+	text-align: center;
+	font-size: 1.2em;
+	color: #F2F2F2;
 }
