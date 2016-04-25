@@ -114,7 +114,7 @@ h3 {
 }
 
 #location img {
-	width: 570px;
+	width: 500px;
 	display: block;
 }
 
@@ -143,6 +143,10 @@ h3 {
 	background: #b3b3b3;
 }
 
+#gallery {
+	background: #f2f2f2;
+}
+
 .sponsor {
 	text-align: center;
 }
@@ -150,6 +154,35 @@ h3 {
 .sponsor img {
 	width: 300px;
 	height: auto;
+	text-align: center;
+}
+
+.modal-title {
+	text-align: center;
+}
+
+.modal button span {
+	font-size: 1.5em;
+}
+
+.modal button span:hover {
+	color: red;
+}
+
+.modal-body {
+	text-align: center;
+	line-height: 1.5;
+}
+
+.modal-body ul {
+	list-style-type: none;
+}
+
+.when {
+	text-align: center;
+}
+
+.where {
 	text-align: center;
 }
 
