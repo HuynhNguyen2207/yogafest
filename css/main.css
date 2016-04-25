@@ -38,7 +38,8 @@ h3 {
 	border: none;
 }
 
-.navbar ul li a {
+.navbar ul li a,
+.navbar-brand {
 	font-size: 1.3em;
 	text-transform: uppercase;
 	color: #F2F2F2 !important;
