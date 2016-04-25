@@ -113,11 +113,6 @@ h3 {
 	background: #CBE32D;
 }
 
-#location img {
-	width: 500px;
-	display: block;
-}
-
 #activities p {
 	text-align: center;
 	font-size: 2.5em;
@@ -184,6 +179,19 @@ h3 {
 
 .where {
 	text-align: center;
+}
+
+.where img {
+	width: 300px;
+}
+
+.trans p {
+	font-size: 1em !important;
+}
+
+.trans ul li {
+	display: inline;
+	padding: 0 10px;
 }
 
 footer {
