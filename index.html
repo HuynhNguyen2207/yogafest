@@ -46,7 +46,7 @@
 						<a href='#activities'>What to do there?</a>
 					</li>
 					<li>
-						<a href='#'>Book your ticket now</a>
+						<a href='#tickets'>Book your ticket now</a>
 					</li>
 				</ul>
 			</nav>
@@ -57,7 +57,7 @@
 			<img src='img/yoga-logo-13(2).png'>
 			<h1>YOGAFEST <br>2017</h1>
 			<h3>Enjoy outdoor yoga, good music while raising environmental awareness</h3>
-			<button type='button' class='btn btn-primary btn-lg'>Get your ticket now!</button>
+			<button type='button' class='btn btn-primary btn-lg' data-toggle="modal" data-target='#ticket-modal'>Get your ticket now!</button>
 
 		</div>
 	</header>
@@ -195,11 +195,11 @@
 					</div>
 					<div class='col-md-3'>
 						<header>
-							<img class='acti-pic' src='img/yoga-icon_green.png'>
+							<img class='acti-pic' src='img/yoga-icon_food.png'>
 							<h3>Enjoy good food</h3>
 						</header>
 						<p>
-							During the festival, we encourauge you to use only recyclable items, such as bring your own tents for the camping.
+							At <a href='http://www.benugo.com/restaurants/serpentine-bar-kitchen' target='_blank' style='text-decoration: underline'>Serpentine Bar & Kitchen</a> - a green heart of London in Hyde Park for meal with friends, family and kids. Also with BBQ menu with fresh meat and pizza
 						</p>
 					</div>
 					<div class='col-md-3'>
@@ -210,6 +210,66 @@
 						<p>
 							During the festival, we encourauge you to use only recyclable items, such as bring your own tents for camping.
 						</p>
+					</div>
+				</div>
+			</section>
+			<section id='tickets' class='row'>
+				<div class='container'>
+					<h2>Get your tickets!</h2>
+					<div class='col-md-6'>
+						<header>
+							<h3>Early bird - &pound;160 </h3>
+						</header>
+						<p>
+							Weekend passes include your event ticket, camping and parking for Friday-Sunday. All camping sites will be opened and shared, rather than assigned camping. Campsites will be allocated on a first come, first served basis. For an additional charge, a limited number of indoor accommodations are also available. Food is not included in the ticket price, but there will be a variety of food trucks at the festival. You are also welcome to bring your own food, although ice may not be readily available. Showering fee is not included which $5/time.
+						</p>
+					</div>
+					<div class='col-md-6'>
+						<header>
+							<h3>Day Pass – &pound;40 - &pound;60 per day </h3>
+						</header>
+						<p>
+							Weekend passes include your event ticket, camping and parking for Friday-Sunday. All camping sites will be opened and shared, rather than assigned camping. Campsites will be allocated on a first come, first served basis. For an additional charge, a limited number of indoor accommodations are also available. Food is not included in the ticket price, but there will be a variety of food trucks at the festival. You are also welcome to bring your own food, although ice may not be readily available. Showering fee is not included which $5/time.
+						</p>
+					</div>
+					<div class='row'>
+						<div class='col-md-6 col-md-offset-3'>
+							<ul>
+								<li style='list-style-type: none;'>
+									<p>*</p>
+								</li>
+								<li>
+									<p>
+										Extra linens – bed sheets, pillow + pillowcase, and towel: $40 (pound)/per person.
+									</p>
+								</li>
+								<li>
+									<p>
+										Extra items for showering – shampoos, body wash (Bodyshop’s products): $15/set.
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class='row' style='text-align: center; margin-top: -80px;'>
+						<button type='button' class='btn btn-primary btn-lg ticket-btn' data-toggle="modal" data-target='#ticket-modal'>Get your ticket now!</button>
+						<!-- Modal -->
+						<div class="modal fade" id="ticket-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="myModalLabel">Yogafest 2017 Schedule</h4>
+									</div>
+									<div class="modal-body">
+
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -262,7 +322,9 @@
 			</section>
 		</main>
 		<footer class='row'>
-			<p>Contact us at <a href='mailto:contact@yogafest.com'>contact@yogafest.com</a></p>
+			<div class='row'>
+				<p>Contact us at <a href='mailto:contact@yogafest.com'>contact@yogafest.com</a></p>
+			</div>
 		</footer>
 	</div>
 

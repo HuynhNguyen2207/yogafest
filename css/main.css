@@ -18,6 +18,7 @@ content {
 	margin: 0;
 	padding: 0;
 	font-family: 'Josefin Sans', Helvetica, sans-serif;
+	color: black;
 }
 
 a:hover {
@@ -97,7 +98,8 @@ h3 {
 	font-weight: bold;
 }
 
-.jumbotron button {
+.jumbotron button,
+#tickets button.ticket-btn {
 	margin-top: 30px;
 	width: 300px;
 	height: 60px;
@@ -108,14 +110,25 @@ h3 {
 	font-weight: bold;
 }
 
-#about {
+#about,
+#tickets {
 	background: #F3FAB6;
 }
 
 #about p,
 #location p {
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 2em;
+}
+
+#tickets p {
+	text-align: left;
+	font-size: 1.5em;
+}
+
+#tickets h3 {
+	text-align: left;
+	padding-bottom: 20px;
 }
 
 #about img {
