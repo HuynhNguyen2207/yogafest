@@ -261,11 +261,78 @@
 										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 										<h4 class="modal-title" id="myModalLabel">Yogafest 2017 Schedule</h4>
 									</div>
-									<div class="modal-body">
+									<div class="modal-body row">
+										<div class='col-md-5'>
+											<form class='form-inline'>
+												<div class="form-group">
+													<label for="40">&pound;40 – Friday Day Pass</label>
+													<input type="text" id="40" placeholder="0">
+												</div>
+											</form>
+											<form class='form-inline'>
+												<div class="form-group">
+													<label for="60">&pound;60 – Saturday Day Pass</label>
+													<input type="text" class="form-control" id="60" placeholder="0">
+												</div>
+											</form>
+											<form class='form-inline'>
+												<div class="form-group row">
+													<label for="50">&pound;50 – Sunday Day Pass</label>
+													<input type="text" class="form-control" id="50" placeholder="0">
+												</div>
+											</form>
+											<form class='form-inline'>
+												<div class="form-group row">
+													<label for="160">&pound;160 – 160Early Bird Pass</label>
+													<input type="text" class="form-control" id="160" placeholder="0">
+												</div>
+											</form>
+										</div>
 
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+										<div class='col-md-7'>
+											<ul class='nav nav-tabs' role='tablist'>
+												<li role="presentation"><a href='#signIn' aria-controls="singIn" role="tab" data-toggle="tab">Sign In</a></li>
+												<li role="presentation" class='active'>
+													<a href='#newUser' aria-controls="newUser" role="tab" data-toggle="tab">New User</a>
+												</li>
+											</ul>
+											<div class="tab-content">
+												<div role="tabpanel" class="tab-pane active" id="newUser">
+													<form class='form-inline' style='text-align: left'>
+														<div class='form-group'>
+															<input type='text' class='form-control' placeholder='First Name'>
+															<input type='text' class='form-control' placeholder='Last Name'>
+														</div>
+													</form>
+													<form class='form-horizontal'>
+														<input type='email' class='form-control' placeholder='Email' style='margin: -15px 0 10px 0;'>
+														<input type='password' class='form-control' placeholder='Create a Password'>
+													</form>
+													<form class='form-inline' style='text-align: left;'>
+														<div class='form-group'>
+															<p style='display: inline;'>Total</p>
+															<input type='text' class='form-control' placeholder='0'>
+														</div>
+													</form>
+													<form class='form-horizontal' style='text-align: left;'>
+														<label>Have a promotion code?</label>
+														<input type='text' class='form-control'>
+													</form>
+													<button class='btn btn-default' role='button' style='margin-top: 20px; background-color: rgb(80,121,180); color: white; padding: 10px;'>Confirm your booking</button>
+												</div>
+												<div role="tabpanel" class="tab-pane" id="signIn">
+													<form class='form-horizontal' style='text-align:left;'>
+														<div class='form-group'>
+															<label>Email</label>
+															<input type='email' class='form-control'>
+															<label>Password</label>
+															<input type='password' class='form-control'>
+															<button class='btn btn-default' role='button' style='margin-top: 20px; background-color: rgb(80,121,180); color: white; padding: 10px;'>Confirm your booking</button>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
