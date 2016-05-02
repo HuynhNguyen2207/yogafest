@@ -74,7 +74,7 @@ h3 {
 	width: 100%;
 	top: 0;
 	left: 0;
-	height: 790px;
+	height: 1000px;
 	z-index: -1;
 }
 
@@ -108,6 +108,20 @@ h3 {
 	background: rgb(224, 169, 26);
 	border: none;
 	font-weight: bold;
+}
+
+.media {
+	margin-top: 30px;
+}
+
+.media li {
+	text-align: center;
+	display: inline;
+	padding: 0px 15px;
+}
+
+.media li a img {
+	width: 50px;
 }
 
 #about,
